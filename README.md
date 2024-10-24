@@ -67,7 +67,7 @@ Each entity object contains the following fields:
 -  gt-rating-median: the median normalized numeric rating in the range [0, 1]
 -  gt-ratings-raw: a list of strings containing the ratings from each pass of annotation from the set {"High", "Moderate", "Low"}.
 -  sum-first-section: Wikipedia page summary from the first section of the page
--  sum-noun-phrase-spacy: the first 100 non-phrases from the article
+-  sum-noun-phrase-spacy: the first 100 noun-phrases from the article
 -  sum-keywords-spacy: first 100 key phrases using Spacy
 -  sum-keywords-rake: first 100 key phrases using Rake
 
@@ -91,12 +91,12 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 Please cite our paper if you use this dataset for your own research:
 
 ```BibTeX
-@article{bullough2024,
+@inproceedings{
+bullough2024,
 title={Predicting Entity Salience in Extremely Short Documents},
 author={Benjamin L. Bullough and Harrison Lundberg and Chen Hu and Weihang Xiao},
-year={2024},
-eprint={TBD},
-archivePrefix={arXiv}
+booktitle={The 2024 Conference on Empirical Methods in Natural Language Processing (Industry Track)},
+year={2024}
 }
 ```
 ## License
