@@ -91,12 +91,23 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 Please cite our paper if you use this dataset for your own research:
 
 ```BibTeX
-@inproceedings{
-bullough2024,
-title={Predicting Entity Salience in Extremely Short Documents},
-author={Benjamin L. Bullough and Harrison Lundberg and Chen Hu and Weihang Xiao},
-booktitle={The 2024 Conference on Empirical Methods in Natural Language Processing (Industry Track)},
-year={2024}
+@inproceedings{bullough-etal-2024-predicting,
+    title = "Predicting Entity Salience in Extremely Short Documents",
+    author = "Bullough, Benjamin  and
+      Lundberg, Harrison  and
+      Hu, Chen  and
+      Xiao, Weihang",
+    editor = "Dernoncourt, Franck  and
+      Preo{\c{t}}iuc-Pietro, Daniel  and
+      Shimorina, Anastasia",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, US",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-industry.5",
+    pages = "50--64",
+    abstract = "A frequent challenge in applications that use entities extracted from text documents is selecting the most salient entities when only a small number can be used by the application (e.g., displayed to a user). Solving this challenge is particularly difficult in the setting of extremely short documents, such as the response from a digital assistant, where traditional signals of salience such as position and frequency are less likely to be useful. In this paper, we propose a lightweight and data-efficient approach for entity salience detection on short text documents. Our experiments show that our approach achieves competitive performance with respect to complex state-of-the-art models, such as GPT-4, at a significant advantage in latency and cost. In limited data settings, we show that a semi-supervised fine-tuning process can improve performance further. Furthermore, we introduce a novel human-labeled dataset for evaluating entity salience on short question-answer pair documents.",
 }
 ```
 ## License
